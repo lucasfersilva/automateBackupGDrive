@@ -1,0 +1,12 @@
+File new_folders.py
+Class folder
+Functions
+check_hdd_percentage - returns used percentage of the disk
+read_txt- read client txt and return a list of clients
+create_folders- create folders from clients with date
+
+File send_backup_email
+Class EmailBackup
+Functions
+get_txt_from_client_list- create a string from list that is returned by read_txt file
+send_emails - send emails with sendgrid API
